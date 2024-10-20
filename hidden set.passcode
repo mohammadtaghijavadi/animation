@@ -1,0 +1,16 @@
+import animation 
+
+# Set the hidden passcode
+passcode = "800808"
+animation.set_passcode(passcode)
+
+#Function to run the passcoce animation
+def run_animation():
+    try:
+        animation.run()
+    except:
+        print("Failed to run animation")
+
+#Run the animation
+run_animation()
+...
